@@ -25,6 +25,10 @@
     </style>
 
     <style name="TaskDate" parent="TextAppearance.MaterialComponents.Body1">
+    <item name="android:textColor">@color/colorSecondaryText</item>
+</style>
+
+    <style name="TaskDetail" parent="TextAppearance.MaterialComponents.Body1">
         <item name="android:textColor">@color/colorSecondaryText</item>
     </style>
 
