@@ -43,6 +43,12 @@ class TaskViewModel(val taskRepository: TaskRepository) : BaseViewModel() {
             ).addTo(compositeDisposable)
     }
 
+
+    //----->
+
+
+    //<-----
+
     fun addNewTask(taskContent: String, isHighPriority: Boolean) {
         val newTask = Task(0, taskContent, Date(), false, isHighPriority)
 

@@ -25,11 +25,18 @@ class MainActivity : BaseActivity() {
     }
 
     private fun setUp() {
-        bindActions()
+       bindActions()
+
+           val taskfragment = TaskFragment()
+
+        val bundle = Bundle()
+
+          bundle.putLong("parentId", 0)
+          taskfragment.arguments = bundle
 
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.fragmentContainer, TaskFragment())
+            .replace(R.id.fragmentContainer, taskfragment)
             .commit()
     }
 

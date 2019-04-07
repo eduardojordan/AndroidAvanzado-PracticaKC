@@ -18,4 +18,8 @@ interface TaskRepository {
 
     fun update(task: Task)
 
+    //--->
+
+    //<---
+
 }

@@ -18,6 +18,7 @@ object Navigator {
     fun navigateToEditTaskFragment(task: Task, fragmentManager: FragmentManager) {
         val fragment = EditTaskFragment.newInstance(task)
         fragment.show(fragmentManager, null)
+
     }
 
 

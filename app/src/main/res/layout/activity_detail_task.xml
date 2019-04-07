@@ -11,7 +11,7 @@
         android:visibility="visible">
 
     <TextView
-            android:text="Este es  el titulo de la tarea"
+            android:text="Textode la tarea"
             android:layout_width="305dp"
             android:layout_height="19dp"
             android:id="@+id/textContent"
